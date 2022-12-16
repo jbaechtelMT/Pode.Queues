@@ -1,6 +1,8 @@
 # Pode.Queues
 
-I wrote <strong>Pode.Queues</strong> to be a compainion module for use with <strong><a href="https://github.com/Badgerati/Pode">Pode</a></strong> & <strong><a href="https://github.com/Badgerati/Pode.Web">Pode.Web</a></strong> projects.
+I wrote <strong>Pode.Queues</strong> to be a compainion module for use with <strong><a href="https://github.com/Badgerati/Pode">Pode</a></strong> & <strong><a href="https://github.com/Badgerati/Pode.Web">Pode.Web</a></strong> projects.&nbsp;&nbsp;For those of you that don't know about these projects, I have found them the best PowerShell based web server and API delivery platform to date.&nbsp;&nbsp;You should really take a look!
+
+This module was born out of my need to have communication and control between multiple PowerShell runspaces, and the need for User to User communications mechinisms.&nbsp;&nbsp;I try to write my scripts/APIs to be utilitarian where one script/page can call on another script/API to perform needed functions.&nbsp;&nbsp;You may ask, "If it is an API, couldn't you just issue a REST API call to the API?"&nbsp;&nbsp;The short answer is: Yes.&nbsp;&nbsp;But why not do those API calls in memory instead of passing it through the NIC?&nbsp;&nbsp;Not to mention, how would you handle Control commands to the APIs as "Interrupts" or "Events"?&nbsp;&nbsp;This module provides those abilities.&nbsp;&nbsp;Also, what about wanting your site users to have the ability to coummicate between themselves, or having the ability for the site itself to be able to message a single user or broadcast a message to all users.&nbsp;&nbsp;Say osmething like the site notifing all users that it is about to restart itself so that the users have warning to save their work?&nbsp;&nbsp;Now you can!
 
 <p align="center">
     <img src="https://github.com/Badgerati/Pode/raw/develop/images/icon-new.svg?raw=true" width="250" />
