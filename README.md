@@ -38,30 +38,23 @@ To see the docs for other releases, branches or tags, you can host the documenta
 
 ## 🚀 Features
 
-* Cross-platform using PowerShell Core (with support for PS5)
-* Docker support, including images for ARM/Raspberry Pi
-* Azure Functions, AWS Lambda, and IIS support
-* OpenAPI, Swagger, and ReDoc support
-* Listen on a single or multiple IP address/hostnames
-* Cross-platform support for HTTP(S), SMTP(S), and TCP(S)
-* Cross-platform support for WebSockets, including secure WebSockets
-* Host REST APIs, Web Pages, and Static Content (with caching)
-* Support for custom error pages
-* Request and Response compression using GZip/Deflate
-* Multi-thread support for incoming requests
-* Inbuilt template engine, with support for third-parties
-* Async timers for short-running repeatable processes
-* Async scheduled tasks using cron expressions for short/long-running processes
-* Supports logging to CLI, Files, and custom logic for other services like LogStash
-* Cross-state variable access across multiple runspaces
-* Restart the server via file monitoring, or defined periods/times
-* Ability to allow/deny requests from certain IP addresses and subnets
-* Basic rate limiting for IP addresses and subnets
-* Middleware and Sessions on web servers, with Flash message and CSRF support
-* Authentication on requests, such as Basic, Windows and Azure AD
-* Support for dynamically building Routes from Functions and Modules
-* Generate/bind self-signed certificates
-* (Windows) Open the hosted server as a desktop application
+Queues (First In - First Out - FIFO):
+Pode Registered Services (Runspaces):
+Control
+Initialize; Terminate; Reboot; Run; Wait; Flush
+Messaging
+Pode <--> Runspace
+Runspace <--> Runspace
+Runspace <--> User
+Pode Registered Users:
+Messaging
+Pode <--> User
+Pode Broadcast --> All Users
+Runspace <--> User
+User <--> User
+Stacks (Last In - First Out - LIFO):
+Global - Accessable by all Runspaces/Pages
+"Personal" - Accessable only by the Runspace/Page that Created Them
 
 ## 📦 Install
 
