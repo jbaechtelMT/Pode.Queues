@@ -1,6 +1,6 @@
 # Pode.Queues
 
-Compainion module for use with Pode & Pode.Web projects.
+I wrote Pode.Queues to be a compainion module for use with [Pode]([https://github.com/Badgerati/Pode/blob/develop/.github/CONTRIBUTING.md](https://github.com/Badgerati/Pode)) & Pode.Web  [Pode.Web]([[https://github.com/Badgerati/Pode/blob/develop/.github/CONTRIBUTING.md](https://github.com/Badgerati/Pode](https://github.com/Badgerati/Pode.Web))) projects.
 
 <p align="center">
     <img src="https://github.com/Badgerati/Pode/raw/develop/images/icon-new.svg?raw=true" width="250" />
