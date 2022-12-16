@@ -38,23 +38,39 @@ To see the docs for other releases, branches or tags, you can host the documenta
 
 ## 🚀 Features
 
-Queues (First In - First Out - FIFO):
-Pode Registered Services (Runspaces):
-Control
-Initialize; Terminate; Reboot; Run; Wait; Flush
-Messaging
-Pode <--> Runspace
-Runspace <--> Runspace
-Runspace <--> User
-Pode Registered Users:
-Messaging
-Pode <--> User
-Pode Broadcast --> All Users
-Runspace <--> User
-User <--> User
-Stacks (Last In - First Out - LIFO):
-Global - Accessable by all Runspaces/Pages
-"Personal" - Accessable only by the Runspace/Page that Created Them
+<ul>
+    <li>Queues (First In - First Out - FIFO):</li>
+    <ul>
+        <li>Pode Registered Services (Runspaces):</li>
+        <ul>
+            <li>Control</li>
+            <ul>
+                <li>Initialize; Terminate; Reboot; Run; Wait; Flush</li>
+            </ul>
+            <li>Messaging</li>
+            <ul>
+                <li>Pode <--> Runspace</li>
+                <li>Runspace <--> Runspace</li>
+                <li>Runspace <--> User</li>
+            </ul>
+            <li>Pode Registered Users:</li>
+            <ul>
+                <li>Messaging</li>
+                <ul>
+                    <li>Pode <--> User</li>
+                    <li>Pode Broadcast --> All Users</li>
+                    <li>Runspace <--> User</li>
+                    <li>User <--> User</li>
+                </ul>
+             </ul>
+        </ul>
+    </ul>
+    <li>Stacks (Last In - First Out - LIFO):</li>
+    <ul>
+        <li>Global - Accessable by all Runspaces/Pages</li>
+        <li>"Personal" - Accessable only by the Runspace/Page that Created Them</li>
+    </ul>
+</ul>
 
 ## 📦 Install
 
