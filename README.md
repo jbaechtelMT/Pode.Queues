@@ -1,6 +1,6 @@
 # Pode.Queues
 
-I wrote <strong>Pode.Queues</strong> to be a compainion module for use with <a href="[url](https://github.com/Badgerati/Pode)">Pode</a> & <a href="[url](https://github.com/Badgerati/Pode.Web)">Pode.Web</a> projects.
+I wrote <strong>Pode.Queues</strong> to be a compainion module for use with <strong><a href="https://github.com/Badgerati/Pode">Pode</a></strong> & <strong><a href="https://github.com/Badgerati/Pode.Web">Pode.Web</a></strong> projects.
 
 <p align="center">
     <img src="https://github.com/Badgerati/Pode/raw/develop/images/icon-new.svg?raw=true" width="250" />
