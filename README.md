@@ -9,16 +9,9 @@ Compainion module for use with Pode & Pode.Web projects.
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Badgerati/Pode/master/LICENSE.txt)
 [![Documentation](https://img.shields.io/github/v/release/badgerati/pode?label=docs&logo=readthedocs&logoColor=white)](https://badgerati.github.io/Pode)
 [![GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fbadgerati%2Fpode%2Fbadge&style=flat&label=GitHub)](https://actions-badge.atrox.dev/badgerati/pode/goto)
-[![Code Coverage](https://coveralls.io/repos/github/Badgerati/Pode/badge.svg?branch=develop)](https://coveralls.io/github/Badgerati/Pode?branch=develop)
-[![Discord](https://img.shields.io/discord/887398607727255642?logo=discord&logoColor=white)](https://discord.gg/fRqeGcbF6h)
 
-[![Chocolatey](https://img.shields.io/chocolatey/dt/pode.svg?label=Chocolatey&colorB=a1301c&logo=chocolatey&logoColor=white)](https://chocolatey.org/packages/pode)
 [![PowerShell](https://img.shields.io/powershellgallery/dt/pode.svg?label=PowerShell&colorB=085298&logo=powershell&logoColor=white)](https://www.powershellgallery.com/packages/Pode)
-[![Docker](https://img.shields.io/docker/pulls/badgerati/pode.svg?label=Docker&logoColor=white&logo=docker)](https://hub.docker.com/r/badgerati/pode/)
 
-[![GitHub Sponsors](https://img.shields.io/github/sponsors/Badgerati?color=%23ff69b4&logo=github&style=flat&label=Sponsers)](https://github.com/sponsors/Badgerati)
-[![Ko-fi](https://img.shields.io/static/v1?logo=kofi&label=Ko-fi&logoColor=white&message=Buy+me+a+coffee&color=ff5f5f)](https://ko-fi.com/badgerati)
-[![PayPal](https://img.shields.io/static/v1?logo=paypal&label=PayPal&logoColor=white&message=Donate&color=00457C)](https://paypal.me/badgerati)
 
 > 💝 A lot of my free time, evenings, and weekends goes into making Pode happen; please do consider sponsoring as it will really help! 😊
 
@@ -42,11 +35,6 @@ All documentation and tutorials for Pode can be [found here](https://badgerati.g
 
 To see the docs for other releases, branches or tags, you can host the documentation locally. To do so you'll need to have the [`InvokeBuild`](https://github.com/nightroman/Invoke-Build) module installed; then:
 
-```powershell
-Invoke-Build Docs
-```
-
-Then navigate to `http://127.0.0.1:8000` in your browser.
 
 ## 🚀 Features
 
@@ -77,18 +65,11 @@ Then navigate to `http://127.0.0.1:8000` in your browser.
 
 ## 📦 Install
 
-You can install Pode from either Chocolatey, the PowerShell Gallery, or Docker:
+You can install Pode.Queues from the PowerShell Gallery:
 
 ```powershell
-# chocolatey
-choco install pode
-
 # powershell gallery
-Install-Module -Name Pode
-
-# docker
-docker pull badgerati/pode
-```
+Install-Module -Name Pode.Queues
 
 ## 🙌 Contributing
 
@@ -96,17 +77,6 @@ docker pull badgerati/pode
 
 Pull Requests, Bug Reports and Feature Requests are welcome! Feel free to help out with Issues and Projects!
 
-To run the unit tests, run the following command from the root of the repository (this will build Pode and, if needed, auto-install Pester/.NET):
-
-```powershell
-Invoke-Build Test
-```
-
-To just build Pode, before running any examples, run the following:
-
-```powershell
-Invoke-Build Build
-```
 
 To work on issues you can fork Pode, and then open a Pull Request for approval. Pull Requests should be made against the `develop` branch. Each Pull Request should also have an appropriate issue created.
 
