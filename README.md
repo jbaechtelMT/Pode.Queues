@@ -80,39 +80,75 @@ To see the docs for other releases, branches or tags, you can host the documenta
 
 ## 🚀 Features
 
-<ul>
-    <li>Queues (First In - First Out - FIFO):</li>
-    <ul>
-        <li>Pode Registered Services (Runspaces):</li>
-        <ul>
-            <li>Control</li>
-            <ul>
-                <li>Initialize; Terminate; Reboot; Run; Wait; Flush</li>
-            </ul>
-            <li>Messaging</li>
-            <ul>
-                <li>Pode <--> Runspace</li>
-                <li>Runspace <--> Runspace</li>
-                <li>Runspace <--> User</li>
-            </ul>
-            <li>Pode Registered Users:</li>
-            <ul>
-                <li>Messaging</li>
-                <ul>
-                    <li>Pode <--> User</li>
-                    <li>Pode Broadcast --> All Users</li>
-                    <li>Runspace <--> User</li>
-                    <li>User <--> User</li>
-                </ul>
-             </ul>
-        </ul>
-    </ul>
-    <li>Stacks (Last In - First Out - LIFO):</li>
-    <ul>
-        <li>Global - Accessable by all Runspaces/Pages</li>
-        <li>"Personal" - Accessable only by the Runspace/Page that Created Them</li>
-    </ul>
-</ul>
+<UL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><B>Queues
+	</B>(First In - First Out - FIFO): </FONT>
+	</P>
+	<UL>
+		<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><B>Pode
+		Registered Services</B> (Run-spaces): </FONT>
+		</P>
+		<UL>
+			<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><B>Control
+			</B></FONT>
+			</P>
+			<UL>
+				<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif">Initialize;
+				Terminate; Reboot; Run; Wait; Flush </FONT>
+				</P>
+			</UL>
+			<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><B>Messaging</B>
+			</FONT>
+			</P>
+			<UL>
+				<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif">Pode
+				&lt;--&gt; Run-space </FONT>
+				</P>
+				<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif">Run-space
+				&lt;--&gt; Run-space </FONT>
+				</P>
+				<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif">Run-space
+				&lt;--&gt; User </FONT>
+				</P>
+			</UL>
+			<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><B>Pode
+			Registered Users</B>: </FONT>
+			</P>
+			<UL>
+				<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><B>Messaging</B>
+				</FONT>
+				</P>
+				<UL>
+					<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif">Pode
+					&lt;--&gt; User </FONT>
+					</P>
+					<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif">Pode
+					Broadcast --&gt; All Users </FONT>
+					</P>
+					<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif">Run-space
+					&lt;--&gt; User </FONT>
+					</P>
+					<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif">User
+					&lt;--&gt; User </FONT>
+					</P>
+				</UL>
+			</UL>
+		</UL>
+	</UL>
+	<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><B>Stacks
+	</B>(Last In - First Out - LIFO): </FONT>
+	</P>
+	<UL>
+		<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><B>Global</B>
+		- Accessible by all Run-spaces/Pages </FONT>
+		</P>
+		<LI><P><FONT FACE="Calibri, sans-serif">&quot;<B>Personal</B>&quot;
+		- Accessible only by the Run-space/Page that Created Them </FONT>
+		</P>
+	</UL>
+</UL>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
 
 ## 📦 Install
 
