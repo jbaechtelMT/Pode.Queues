@@ -111,7 +111,7 @@ To see the docs for other releases, branches or tags, you can host the documenta
 	<LI><B>Stacks</B>(Last In - First Out - LIFO):
 	<UL>
 		<LI><B>Global</B> - Accessible by all Run-spaces/Pages
-		<LI><P>&quot;<B>Personal</B>&quot; - Accessible only by the Run-space/Page that Created Them
+		<LI>&quot;<B>Personal</B>&quot; - Accessible only by the Run-space/Page that Created Them
 	</UL>
 </UL>
 </FONT></P>
