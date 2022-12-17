@@ -84,7 +84,7 @@ To see the docs for other releases, branches or tags, you can host the documenta
 <UL>
 	<LI><B>Queues</B> (First In - First Out - FIFO): 
 	<UL>
-		<LI><<B>Pode Registered Services</B> (Run-spaces): </FONT>
+		<LI><<B>Pode Registered Services</B> (Run-spaces):
 		<UL>
 			<LI><B>Control</B>
 			<UL>
@@ -98,7 +98,7 @@ To see the docs for other releases, branches or tags, you can host the documenta
 			</UL>
 			<LI><B>Pode Registered Users</B>: 
 			<UL>
-				<LI><P STYLE="margin-bottom: 0in"><FONT FACE="Calibri, sans-serif"><B>Messaging</B>
+				<LI><B>Messaging</B>
 				<UL>
 					<LI>Pode &lt;--&gt; User
 					<LI>Pode Broadcast --&gt; All Users 
