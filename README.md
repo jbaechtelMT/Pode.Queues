@@ -28,12 +28,14 @@ to User communications</B></FONT> mechanisms.</FONT></FONT></P>
 scripts/APIs to be utilitarian where one script/page can call on
 another script/API to perform needed functions.  You may ask, &quot;<I>If
 it is an API, couldn't you just issue a REST API call to the API?</I>&quot;
- The short answer is: Yes.  But why not do those API calls in memory
+ The short answer is: Yes.</P>
+<P>But why not do those API calls in memory
 instead of passing it through the NIC?  Not to mention, how would you
 handle <FONT COLOR="#0066cc"><B>run-space Control commands</B></FONT>
 to the APIs as &quot;<FONT COLOR="#0066cc"><B>Interrupts</B></FONT>&quot;
 or &quot;<FONT COLOR="#0066cc"><B>Events</B></FONT>&quot;?  This
-module provides those abilities.  Also, what about wanting your
+module provides those abilities.</P>
+<P>Also, what about wanting your
 site's users to have the ability to communicate between themselves,
 or having the ability for the site itself to be able to <FONT COLOR="#0066cc"><B>message
 a single user</B></FONT> or <FONT COLOR="#0066cc"><B>broadcast a
