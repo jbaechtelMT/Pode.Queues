@@ -1,8 +1,48 @@
 # Pode.Queues
 
-I wrote <strong>Pode.Queues</strong> to be a compainion module for use with <strong><a href="https://github.com/Badgerati/Pode">Pode</a></strong> & <strong><a href="https://github.com/Badgerati/Pode.Web">Pode.Web</a></strong> projects.&nbsp;&nbsp;For those of you that don't know about these projects, I have found them to be the best PowerShell based web server and API delivery platform to date.&nbsp;&nbsp;You should really take a look!
-
-This module was born out of my need to have communication and control between multiple PowerShell runspaces, and the need for User to User communications mechinisms.&nbsp;&nbsp;I try to write my scripts/APIs to be utilitarian where one script/page can call on another script/API to perform needed functions.&nbsp;&nbsp;You may ask, "If it is an API, couldn't you just issue a REST API call to the API?"&nbsp;&nbsp;The short answer is: Yes.&nbsp;&nbsp;But why not do those API calls in memory instead of passing it through the NIC?&nbsp;&nbsp;Not to mention, how would you handle Control commands to the APIs as "Interrupts" or "Events"?&nbsp;&nbsp;This module provides those abilities.&nbsp;&nbsp;Also, what about wanting your site users to have the ability to coummicate between themselves, or having the ability for the site itself to be able to message a single user or broadcast a message to all users.&nbsp;&nbsp;Say something like the site notifing all users that it is about to restart itself so that the users have warning enough to save their work?&nbsp;&nbsp;Now you can!
+<P><FONT FACE="Calibri, sans-serif"><FONT SIZE=4>I wrote </FONT></FONT><STRONG><FONT COLOR="#0066cc"><FONT FACE="Calibri, sans-serif"><FONT SIZE=4><B>Pode.Queues</B></FONT></FONT></FONT></STRONG><FONT FACE="Calibri, sans-serif"><FONT SIZE=4>
+to be a </FONT></FONT><FONT FACE="Calibri, sans-serif"><FONT SIZE=4><SPAN STYLE="font-style: normal">companion</SPAN></FONT></FONT><FONT FACE="Calibri, sans-serif"><FONT SIZE=4>
+module for use with </FONT></FONT><STRONG><A HREF="https://github.com/Badgerati/Pode"><FONT FACE="Calibri, sans-serif"><FONT SIZE=4>Pode</FONT></FONT></A></STRONG><FONT FACE="Calibri, sans-serif"><FONT SIZE=4>
+&amp; </FONT></FONT><STRONG><A HREF="https://github.com/Badgerati/Pode.Web"><FONT FACE="Calibri, sans-serif"><FONT SIZE=4>Pode.Web</FONT></FONT></A></STRONG><FONT FACE="Calibri, sans-serif"><FONT SIZE=4>
+projects.  For those of you that don't know about these projects, I
+have found them to be the best </FONT></FONT><FONT COLOR="#0066cc"><FONT FACE="Calibri, sans-serif"><FONT SIZE=4><B>PowerShell
+</B></FONT></FONT></FONT><FONT FACE="Calibri, sans-serif"><FONT SIZE=4>based
+</FONT></FONT><FONT COLOR="#0066cc"><FONT FACE="Calibri, sans-serif"><FONT SIZE=4><B>web
+server</B></FONT></FONT></FONT><FONT FACE="Calibri, sans-serif"><FONT SIZE=4>
+and </FONT></FONT><FONT COLOR="#0066cc"><FONT FACE="Calibri, sans-serif"><FONT SIZE=4><B>API
+delivery platform</B></FONT></FONT></FONT><FONT FACE="Calibri, sans-serif"><FONT SIZE=4>
+to date.  You should really take a look!</FONT></FONT></P>
+<P><FONT FACE="Calibri, sans-serif"><FONT COLOR="#0066cc"><FONT SIZE=4><B>Pode.Queues</B></FONT></FONT><FONT SIZE=4><B>
+</B></FONT><FONT SIZE=4>doesn't require that you use it with </FONT><FONT COLOR="#0066cc"><FONT SIZE=4><B>Pode</B></FONT></FONT><FONT SIZE=4>.
+ It contains code to detect if it is running under </FONT><FONT COLOR="#0066cc"><FONT SIZE=4><B>Pode</B></FONT></FONT><FONT SIZE=4>
+or not which it allows it to be used stand-alone with PowerShell
+run-spaces and you can still enjoy all of it's features.  But where
+it really shines is operating under the </FONT><FONT COLOR="#0066cc"><FONT SIZE=4><B>Pode</B></FONT></FONT><FONT SIZE=4>
+framework.</FONT></FONT></P>
+<P><FONT FACE="Calibri, sans-serif"><FONT SIZE=4>This module was born
+out of two needs: the <FONT COLOR="#0066cc"><B>need to have a
+communication and control structure between multiple PowerShell
+run-spaces</B></FONT>; and the <FONT COLOR="#0066cc"><B>need for User
+to User communications</B></FONT> mechanisms.</FONT></FONT></P>
+<P><FONT FACE="Calibri, sans-serif"><FONT SIZE=4>I try to write my
+scripts/APIs to be utilitarian where one script/page can call on
+another script/API to perform needed functions.  You may ask, &quot;<I>If
+it is an API, couldn't you just issue a REST API call to the API?</I>&quot;
+ The short answer is: Yes.  But why not do those API calls in memory
+instead of passing it through the NIC?  Not to mention, how would you
+handle <FONT COLOR="#0066cc"><B>run-space Control commands</B></FONT>
+to the APIs as &quot;<FONT COLOR="#0066cc"><B>Interrupts</B></FONT>&quot;
+or &quot;<FONT COLOR="#0066cc"><B>Events</B></FONT>&quot;?  This
+module provides those abilities.  Also, what about wanting your
+site's users to have the ability to communicate between themselves,
+or having the ability for the site itself to be able to <FONT COLOR="#0066cc"><B>message
+a single user</B></FONT> or <FONT COLOR="#0066cc"><B>broadcast a
+message to all users</B></FONT>.  Say something like the site
+notifying all users that it is about to restart itself so that the
+users have warning enough to save their work?  <FONT COLOR="#0066cc"><B>Now
+you can</B></FONT>!</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
 
 <p align="center">
     <img src="https://github.com/Badgerati/Pode/raw/develop/images/icon-new.svg?raw=true" width="250" />
