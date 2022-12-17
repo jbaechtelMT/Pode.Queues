@@ -15,7 +15,7 @@ to date.  You should really take a look!</FONT></FONT></P>
 <P><FONT FACE="Calibri, sans-serif"><FONT COLOR="#0066cc"><FONT SIZE=4><B>Pode.Queues</B></FONT></FONT><FONT SIZE=4><B>
 </B></FONT><FONT SIZE=4>doesn't require that you use it with </FONT><FONT COLOR="#0066cc"><FONT SIZE=4><B>Pode</B></FONT></FONT><FONT SIZE=4>.
  It contains code to detect if it is running under </FONT><FONT COLOR="#0066cc"><FONT SIZE=4><B>Pode</B></FONT></FONT><FONT SIZE=4>
-or not which it allows it to be used stand-alone with PowerShell
+or not which allows it to be used stand-alone with PowerShell
 run-spaces and you can still enjoy all of it's features.  But where
 it really shines is operating under the </FONT><FONT COLOR="#0066cc"><FONT SIZE=4><B>Pode</B></FONT></FONT><FONT SIZE=4>
 framework.</FONT></FONT></P>
