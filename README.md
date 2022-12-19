@@ -105,7 +105,9 @@ To see the docs for other releases, branches or tags, you can host the documenta
 					<LI>Pode &lt;--&gt; User
 					<LI>Pode Broadcast --&gt; All Users 
 					<LI>Run-space &lt;--&gt; User
+					<LI>Run-space Broadcast --&gt; All Users
 					<LI>User &lt;--&gt; User
+					<LI>User Broadcast --&gt; All Users
 				</UL>
 			</UL>
 		</UL>
