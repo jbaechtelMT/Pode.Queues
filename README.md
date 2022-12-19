@@ -68,7 +68,7 @@ you can</B></FONT>!</FONT></FONT></P>
 
 ## 📘 Documentation
 
-All documentation and tutorials for Pode can be [found here]([https://badgerati.github.io/Pode](https://github.com/jbaechtelMT/Pode.Queues/blob/main/)) - this documentation will be for the latest release.
+All documentation and tutorials for Pode.Queues can be [found here]([https://jbaechtelMT.github.io/Pode.Queus](https://github.com/jbaechtelMT/Pode.Queues/blob/main/)) - this documentation will be for the latest release.
 
 To see the docs for other releases, branches or tags, you can host the documentation locally.
 
@@ -117,13 +117,11 @@ To see the docs for other releases, branches or tags, you can host the documenta
 
 You can install Pode.Queues from the PowerShell Gallery:
 
-```powershell
 # powershell gallery
 Install-Module -Name Pode.Queues
 
 ## 🙌 Contributing
 
-```powershell
 Pull Requests, Bug Reports and Feature Requests are welcome!
 
 ## 🌎 Roadmap
