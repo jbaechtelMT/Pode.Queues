@@ -47,7 +47,7 @@ you can</B></FONT>!</FONT></FONT></P>
 </P>
 
 <p align="center">
-    <img src="https://github.com/Badgerati/Pode/raw/develop/images/icon-new.svg?raw=true" width="250" />
+    <img src="https://github.com/jbaechtelMT/Pode.Queues/queues.png?raw=true" width="250" />
 </p>
 
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/Badgerati/Pode/master/LICENSE.txt)
