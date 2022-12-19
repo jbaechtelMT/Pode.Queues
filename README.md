@@ -50,7 +50,7 @@ you can</B></FONT>!</FONT></FONT></P>
     <img src="https://github.com/jbaechtelMT/Pode.Queues/blob/main/queues.png?raw=true" width="250" />
 </p>
 
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/jbaechtelMT/Pode.Queues/blob/master/LICENSE.txt)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/jbaechtelMT/Pode.Queues/blob/master/LICENSE.txt)
 [![GitHub Actions](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2FjbaechtelMT%2Fpode.queues%2Fbadge&style=flat&label=GitHub)](https://actions-badge.atrox.dev/jbaechtelMT/pode.queues/goto)
 
 [![PowerShell](https://img.shields.io/powershellgallery/dt/pode.queues.svg?label=PowerShell&colorB=085298&logo=powershell&logoColor=white)](https://www.powershellgallery.com/packages/Pode.Queues)
