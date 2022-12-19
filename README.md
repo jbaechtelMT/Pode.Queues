@@ -64,7 +64,7 @@ you can</B></FONT>!</FONT></FONT></P>
 - [🙌 Contributing](#-contributing)
 - [🌎 Roadmap](#-roadmap)
 
-<B>Pode.Queues</B> is a Cross-Platform module for creating Queues to handle inter-service (Run-spaces) Control/messaging and User messaging capibilities for use with <STRONG><A HREF="https://github.com/Badgerati/Pode.Web"><FONT FACE="Calibri, sans-serif"><FONT SIZE=4>Pode.Web</FONT></FONT></A></STRONG><FONT FACE="Calibri, sans-serif"><FONT SIZE=4> modules.  This module lends itself to "distributive" web sites and APIs where there is a "Control" site and one-or-many "Worker" nodes that are interconnected!
+<B>Pode.Queues</B> is a Cross-Platform module for creating Queues to handle inter-service (Run-spaces) Control/messaging and User messaging capibilities for use with <STRONG><A HREF="https://github.com/Badgerati/Pode">Pode</A></STRONG> & <STRONG><A HREF="https://github.com/Badgerati/Pode.Web">Pode.Web</A></STRONG> modules.  This module lends itself to "distributive" web sites and APIs where there is a "Control" site and one-or-many "Worker" nodes that are interconnected!
 
 ## 📘 Documentation
 
