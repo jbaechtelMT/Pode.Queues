@@ -146,7 +146,6 @@ Start-PodeServer -Threads 4 -StatusPageExceptions Show {
 								"Command:  $($WebEvent.Data.Send)" | Write-PodeHost
 								foreach ($p in $($WebEvent.Data).GetEnumerator()) {
 									"Key:  $($p.Key)  Value:  $($p.Value)" | Write-PodeHost}
-#								Send-PodeServiceCommand -Service $WebEvent.Data.Value -Command $WebEvent.Data.Send | Write-PodeHost
 								Sync-PodeWebTable -Name 'Pode Services'
 								Hide-PodeWebModal}
 	$helpCommandModal = New-PodeWebModal -Name 'Help Pode Services Command Help' -Icon 'help' -Content @(
